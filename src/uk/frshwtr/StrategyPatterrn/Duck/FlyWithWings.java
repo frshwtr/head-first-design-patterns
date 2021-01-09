@@ -1,4 +1,4 @@
-package uk.frshwtr.Duck;
+package uk.frshwtr.StrategyPatterrn.Duck;
 
 public class FlyWithWings implements FlyBehaviour {
     public void fly() {
