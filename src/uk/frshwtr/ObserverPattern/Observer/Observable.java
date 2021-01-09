@@ -1,6 +1,6 @@
-package uk.frshwtr.Observer;
+package uk.frshwtr.ObserverPattern.Observer;
 
-public interface Subject {
+public interface Observable {
     void registerObserver(Observer o);
     void removeObserver(Observer o);
     void notifyObservers();
