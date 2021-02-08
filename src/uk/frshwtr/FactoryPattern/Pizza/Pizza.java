@@ -1,5 +1,7 @@
 package uk.frshwtr.FactoryPattern.Pizza;
 
+import uk.frshwtr.FactoryPattern.Pizza.Ingredients.*;
+
 import java.util.ArrayList;
 
 public abstract class Pizza implements PizzaCreation {
@@ -13,6 +15,7 @@ public abstract class Pizza implements PizzaCreation {
     Clams clams;
 
     public abstract void prepare();
+
     public void bake() {
         System.out.println("Baking for 25 minutes at 350f");
     }
@@ -33,6 +36,6 @@ public abstract class Pizza implements PizzaCreation {
     }
 
     public String toString() {
-
+        return name;
     }
 }
